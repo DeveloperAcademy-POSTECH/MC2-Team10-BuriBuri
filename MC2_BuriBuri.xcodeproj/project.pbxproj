@@ -17,7 +17,7 @@
 		EEAC0D162A0A40C2007EF909 /* FileManagerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAC0D112A0A40C2007EF909 /* FileManagerExtensions.swift */; };
 		EEAC0D1B2A0A40D8007EF909 /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAC0D172A0A40D8007EF909 /* ARView.swift */; };
 		EEAC0D1C2A0A40D8007EF909 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAC0D182A0A40D8007EF909 /* ScanView.swift */; };
-		EEAC0D1D2A0A40D8007EF909 /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAC0D192A0A40D8007EF909 /* AlbumView.swift */; };
+		EEAC0D1D2A0A40D8007EF909 /* AlbumForParentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAC0D192A0A40D8007EF909 /* AlbumForParentsView.swift */; };
 		EEAC0D1E2A0A40D8007EF909 /* GridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAC0D1A2A0A40D8007EF909 /* GridItemView.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,7 +33,7 @@
 		EEAC0D112A0A40C2007EF909 /* FileManagerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManagerExtensions.swift; sourceTree = "<group>"; };
 		EEAC0D172A0A40D8007EF909 /* ARView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
 		EEAC0D182A0A40D8007EF909 /* ScanView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
-		EEAC0D192A0A40D8007EF909 /* AlbumView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumView.swift; sourceTree = "<group>"; };
+		EEAC0D192A0A40D8007EF909 /* AlbumForParentsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumForParentsView.swift; sourceTree = "<group>"; };
 		EEAC0D1A2A0A40D8007EF909 /* GridItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,7 +99,7 @@
 		EEAC0D202A0A40E9007EF909 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				EEAC0D192A0A40D8007EF909 /* AlbumView.swift */,
+				EEAC0D192A0A40D8007EF909 /* AlbumForParentsView.swift */,
 				EEAC0D172A0A40D8007EF909 /* ARView.swift */,
 				EEAC0D1A2A0A40D8007EF909 /* GridItemView.swift */,
 				EEAC0D182A0A40D8007EF909 /* ScanView.swift */,
@@ -180,7 +180,7 @@
 				EEAC0D142A0A40C2007EF909 /* Item.swift in Sources */,
 				EEAC0D1C2A0A40D8007EF909 /* ScanView.swift in Sources */,
 				EEAC0D122A0A40C2007EF909 /* PhotoPicker.swift in Sources */,
-				EEAC0D1D2A0A40D8007EF909 /* AlbumView.swift in Sources */,
+				EEAC0D1D2A0A40D8007EF909 /* AlbumForParentsView.swift in Sources */,
 				EEAC0D1B2A0A40D8007EF909 /* ARView.swift in Sources */,
 				EEAC0D002A0A3E69007EF909 /* MC2_BuriBuriApp.swift in Sources */,
 				EEAC0D132A0A40C2007EF909 /* DataModel.swift in Sources */,

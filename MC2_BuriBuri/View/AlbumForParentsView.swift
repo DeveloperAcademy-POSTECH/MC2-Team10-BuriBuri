@@ -1,5 +1,5 @@
 //
-//  AlbumView.swift
+//  AlbumForParentsView.swift
 //  FileManagerTest
 //
 //  Created by xnoag on 2023/05/09.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AlbumView: View {
+struct AlbumForParentsView: View {
     @EnvironmentObject var dataModel: DataModel
     private static let Columns = 3
     @State private var isAddingPhoto = false
@@ -76,6 +76,6 @@ struct AlbumView: View {
 
 struct AlbumView_Previews: PreviewProvider {
     static var previews: some View {
-        AlbumView().environmentObject(DataModel())
+        AlbumForParentsView().environmentObject(DataModel())
     }
 }

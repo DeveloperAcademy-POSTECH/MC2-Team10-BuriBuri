@@ -13,7 +13,7 @@ struct MC2_BuriBuriApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationStack {
-                ARView()
+                AlbumForParentsView()
             }
             .environmentObject(dataModel)
         }
