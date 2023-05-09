@@ -17,6 +17,8 @@ struct AlbumForChildView: View {
     var body: some View {
         VStack {
             ScrollView {
+                Spacer()
+                    .frame(height: getHeight() * 0.05)
                 LazyVGrid(columns: gridColumns) {
                     ForEach(dataModel.items) { item in
                         GeometryReader { geo in

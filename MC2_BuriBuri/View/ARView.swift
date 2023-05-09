@@ -40,7 +40,7 @@ struct ARView: View {
                 }
                 .sheet(isPresented: $isUnBoxing) {
                     NavigationView {
-                        AlbumForParentsView()
+                        AlbumForChildView()
                     }
                 }
     }
