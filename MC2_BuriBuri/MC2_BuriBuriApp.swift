@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct MC2_BuriBuriApp: App {
+    @StateObject var dataModel = DataModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                ARView()
+            }
+            .environmentObject(dataModel)
         }
     }
 }
