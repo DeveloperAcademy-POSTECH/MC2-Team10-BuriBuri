@@ -10,7 +10,6 @@ import SwiftUI
 struct AlbumForParentsView: View {
     @EnvironmentObject var dataModel: DataModel
     private static let Columns = 3
-    @State private var isAddingPhoto = false
     @State private var isEditing = false
     @State private var gridColumns = Array(repeating: GridItem(.flexible()), count: Columns)
     @State private var numColumns = Columns
@@ -53,18 +52,7 @@ struct AlbumForParentsView: View {
             }
         }
         .navigationBarTitleDisplayMode(.inline)
-        .sheet(isPresented: $isAddingPhoto) {
-            PhotoPicker()
-        }
         .toolbar {
-            ToolbarItem(placement: .navigationBarLeading) {
-                Button {
-                    isAddingPhoto = true
-                } label: {
-                    Image(systemName: "plus")
-                }
-                .disabled(isEditing)
-            }
             ToolbarItem(placement: .navigationBarTrailing) {
                 Button(isEditing ? "Done" : "Edit") {
                     withAnimation { isEditing.toggle() }
