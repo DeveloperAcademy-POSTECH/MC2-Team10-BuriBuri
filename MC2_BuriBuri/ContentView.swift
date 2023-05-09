@@ -3,7 +3,7 @@
 //  MC2_BuriBuri
 //
 //  Created by xnoag on 2023/05/09.
-//
+// hi
 
 import SwiftUI
 
