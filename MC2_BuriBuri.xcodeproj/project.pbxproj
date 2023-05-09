@@ -18,7 +18,9 @@
 		EEAC0D1C2A0A40D8007EF909 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAC0D182A0A40D8007EF909 /* ScanView.swift */; };
 		EEAC0D1D2A0A40D8007EF909 /* AlbumForParentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAC0D192A0A40D8007EF909 /* AlbumForParentsView.swift */; };
 		EEAC0D1E2A0A40D8007EF909 /* GridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAC0D1A2A0A40D8007EF909 /* GridItemView.swift */; };
-		EEBDFA992A0A62A6000543FD /* AlbumForChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBDFA982A0A62A6000543FD /* AlbumForChildView.swift */; };
+		EEBDFA9B2A0A6836000543FD /* AlbumDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBDFA9A2A0A6836000543FD /* AlbumDetailView.swift */; };
+		EEBDFA9F2A0A6E5D000543FD /* 101010.png in Resources */ = {isa = PBXBuildFile; fileRef = EEBDFA9E2A0A6E5D000543FD /* 101010.png */; };
+		EEBDFAA12A0A742D000543FD /* AlbumForChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBDFAA02A0A742D000543FD /* AlbumForChildView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +36,9 @@
 		EEAC0D182A0A40D8007EF909 /* ScanView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
 		EEAC0D192A0A40D8007EF909 /* AlbumForParentsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumForParentsView.swift; sourceTree = "<group>"; };
 		EEAC0D1A2A0A40D8007EF909 /* GridItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridItemView.swift; sourceTree = "<group>"; };
-		EEBDFA982A0A62A6000543FD /* AlbumForChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumForChildView.swift; sourceTree = "<group>"; };
+		EEBDFA9A2A0A6836000543FD /* AlbumDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailView.swift; sourceTree = "<group>"; };
+		EEBDFA9E2A0A6E5D000543FD /* 101010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 101010.png; sourceTree = "<group>"; };
+		EEBDFAA02A0A742D000543FD /* AlbumForChildView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumForChildView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,7 @@
 				EEAC0D1F2A0A40E2007EF909 /* Data */,
 				EEAC0D202A0A40E9007EF909 /* View */,
 				EEAC0D032A0A3E69007EF909 /* Assets.xcassets */,
+				EEBDFA9E2A0A6E5D000543FD /* 101010.png */,
 				EEAC0D052A0A3E69007EF909 /* Preview Content */,
 			);
 			path = MC2_BuriBuri;
@@ -99,10 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				EEAC0D192A0A40D8007EF909 /* AlbumForParentsView.swift */,
+				EEBDFA9A2A0A6836000543FD /* AlbumDetailView.swift */,
 				EEAC0D172A0A40D8007EF909 /* ARView.swift */,
 				EEAC0D1A2A0A40D8007EF909 /* GridItemView.swift */,
+				EEBDFAA02A0A742D000543FD /* AlbumForChildView.swift */,
 				EEAC0D182A0A40D8007EF909 /* ScanView.swift */,
-				EEBDFA982A0A62A6000543FD /* AlbumForChildView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -165,6 +171,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEBDFA9F2A0A6E5D000543FD /* 101010.png in Resources */,
 				EEAC0D072A0A3E69007EF909 /* Preview Assets.xcassets in Resources */,
 				EEAC0D042A0A3E69007EF909 /* Assets.xcassets in Resources */,
 			);
@@ -179,12 +186,13 @@
 			files = (
 				EEAC0D142A0A40C2007EF909 /* Item.swift in Sources */,
 				EEAC0D1C2A0A40D8007EF909 /* ScanView.swift in Sources */,
-				EEBDFA992A0A62A6000543FD /* AlbumForChildView.swift in Sources */,
 				EEAC0D1D2A0A40D8007EF909 /* AlbumForParentsView.swift in Sources */,
+				EEBDFAA12A0A742D000543FD /* AlbumForChildView.swift in Sources */,
 				EEAC0D1B2A0A40D8007EF909 /* ARView.swift in Sources */,
 				EEAC0D002A0A3E69007EF909 /* MC2_BuriBuriApp.swift in Sources */,
 				EEAC0D132A0A40C2007EF909 /* DataModel.swift in Sources */,
 				EEAC0D152A0A40C2007EF909 /* getFunction.swift in Sources */,
+				EEBDFA9B2A0A6836000543FD /* AlbumDetailView.swift in Sources */,
 				EEAC0D162A0A40C2007EF909 /* FileManagerExtensions.swift in Sources */,
 				EEAC0D1E2A0A40D8007EF909 /* GridItemView.swift in Sources */,
 			);
