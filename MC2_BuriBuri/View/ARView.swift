@@ -10,7 +10,6 @@ import SwiftUI
 struct ARView: View {
     @State private var isUnBoxing = false
     var body: some View {
-        NavigationView {
                 VStack {
                     Spacer()
                         .frame(width: getWidth() * 0.1, height: getHeight() * 0.05)
@@ -44,7 +43,6 @@ struct ARView: View {
                         AlbumForParentsView()
                     }
                 }
-        }
     }
 }
 
