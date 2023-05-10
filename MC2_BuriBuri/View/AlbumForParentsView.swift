@@ -21,7 +21,7 @@ struct AlbumForParentsView: View {
     // 앨범은 3XN 형태이다.
     @State private var gridColumns = Array(repeating: GridItem(.flexible()), count: Columns)
     // isAnimation의 Boolean 값에 따라 이미지가 흔들거리는 효과 여부를 결정한다.
-    @State var isAnimation = false
+    @State var isAnimationParents = false
     
     var body: some View {
         VStack {
@@ -37,11 +37,9 @@ struct AlbumForParentsView: View {
                                 // GridItemView를 불러와서 item에 item을 넘겨준다.
                                 GridItemView(size: geo.size.width, item: item)
                                     // 좌우 5도씩 흔들거리는 효과
-                                    .rotationEffect((Angle(degrees: isAnimation ? 5 : -5)))
+                                    .rotationEffect((Angle(degrees: isAnimationParents ? 5 : -5)))
                                     // 0.3초마다 왔다갔다하게 하는 효과
-                                    .animation(.easeInOut(duration: 0.3)
-                                    // isAnimation이 true인 동안에는 무제한으로 효과 실행
-                                    .repeatForever(autoreverses: true), value: isAnimation)
+                                    .animation(.easeInOut(duration: 0.3).repeatForever(autoreverses: true), value: isAnimationParents)
                             }
                         }
                         .cornerRadius(8.0)
@@ -68,7 +66,7 @@ struct AlbumForParentsView: View {
             }
             // AlbumForParentsView가 켜질 때 isAnimation을 true로 만들어서 효과 실행되게 한다.
             .onAppear {
-                isAnimation.toggle()
+                isAnimationParents.toggle()
             }
         }
         .navigationBarTitleDisplayMode(.inline)

@@ -15,7 +15,7 @@ struct GridItemView: View {
     let item: Item
 
     var body: some View {
-        ZStack(alignment: .topTrailing) {
+            ZStack(alignment: .topTrailing) {
                 AsyncImage(url: item.url) { image in
                     image
                         .resizable()
@@ -23,8 +23,8 @@ struct GridItemView: View {
                 } placeholder: {
                     ProgressView()
                 }
-            .frame(width: size, height: size)
-        }
+                .frame(width: size, height: size)
+            }
     }
 }
 
