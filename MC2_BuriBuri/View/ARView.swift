@@ -38,7 +38,7 @@ struct ARView: View {
                     Spacer()
                         .frame(width: getWidth() * 1, height: getHeight() * 0.1)
                 }
-                .sheet(isPresented: $isUnBoxing) {
+                .popover(isPresented: $isUnBoxing) {
                     NavigationView {
                         AlbumForChildView()
                     }
