@@ -18,7 +18,7 @@ struct ConvertTestView: View {
 	
 	@State var brPNGData = Data()
 	
-	//시뮬레이터를 실행할 맥에서의 이미지 파일 위치에 맞게 URL을 수정하세요
+	//시뮬레이터를 실행할 맥에서의 이미지 파일 위치에 맞게 URL을 수정해야 사용 가능
 	
 	let originalURL = URL(fileURLWithPath: "/Users/wonil/Desktop/SwiftProjects/ADA2 Projects/MC2/Shared Project/MC2-Team10-BuriBuri/MC2_BuriBuri/SampleImage/ConvertSampleImage1.HEIC")
 	
